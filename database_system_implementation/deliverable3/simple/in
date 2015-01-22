@@ -1,0 +1,15 @@
+dbs.queryType("select * from Employee");
+dbs.queryType("select id,spousesal from Employee");
+dbs.queryType("select * from Employee");
+dbs.queryType("select id,spousename from Employee where id>20");
+dbs.queryType("select name,id from Employee order by id");
+dbs.queryType("select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400");
+dbs.queryType("select * from Employee where id>20 and spouseid>10 and sal>1020 and spousesal>1010");
+dbs.queryType("select * from Employee where id>20 and spouseid>10 and sal>1020 and spousesal<1010");
+dbs.queryType("select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400");
+dbs.queryType("select spousename from Employee where id>20 or spouseid>10 or sal>1900 or spousesal>1400");
+dbs.queryType("select spousename from Employee where id>20 order by id");
+dbs.queryType("select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400 order by id");
+dbs.queryType("select spousename from Employee where id>20 or spouseid>10 or sal>1900 or spousesal>1400 order by id");
+dbs.queryType("select * from Employee where id>20 orderby id,name");
+dbs.queryType("select spousename from Employee where id>20 orderby spousename");

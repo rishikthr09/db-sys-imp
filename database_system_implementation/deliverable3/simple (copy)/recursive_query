@@ -1,0 +1,2 @@
+1
+select id,spousename from Employee where id > (select id from Employee where name like 'test61');

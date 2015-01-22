@@ -1,0 +1,1 @@
+id:int,fname:varchar,lname:varchar,percent:float,class:varchar,year:int

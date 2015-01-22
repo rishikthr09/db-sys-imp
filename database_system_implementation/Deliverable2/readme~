@@ -1,0 +1,5 @@
+give each student config and input
+
+diff their outpu with output in this file
+diff their config with config_final
+check if test1.data,test1.csv,test2.data,test3.data,dbs.data,test2.csv,test3.csv,dbs.csv files are created in /tmp/

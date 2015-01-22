@@ -1,0 +1,4 @@
+1. Give all files except outComplex	
+2. Diff their result with outComplex
+3. Time to run this query is normal if <30s
+<30sec norma

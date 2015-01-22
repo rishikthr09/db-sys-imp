@@ -1,0 +1,1 @@
+id:int,name:varchar(100),sal:float,spouseid:int,spousename:varchar(100),spousesal:float

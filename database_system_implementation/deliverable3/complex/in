@@ -1,0 +1,7 @@
+dbs.queryType("Select * from countries");
+dbs.queryType("Select TYPE,NAME from airports");
+dbs.queryType("Select ID from airports where TYPE='small_airport'");
+dbs.queryType("Select ID from airports where TYPE like 'SMALL_Airport'");
+dbs.queryType("Select ID,NAME,CODE,CONTINENT from countries where CONTINENT='OC' or NAME='India' ");
+dbs.queryType("Select ID,NAME from airports order by NAME");
+dbs.queryType("Select NAME,COUNTRY from airports where LATITUDE>=40 and LATITUDE<=42 order by NAME");

@@ -1,0 +1,15 @@
+select * from Employee;
+select id,spousesal from Employee;
+select * from Employee;
+select id,spousename from Employee where id>20;
+select name,id from Employee order by id;
+select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400;
+select * from Employee where id>20 and spouseid>10 and sal>1020 and spousesal>1010;
+select * from Employee where id>20 and spouseid>10 and sal>1020 and spousesal<1010;
+select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400;
+select spousename from Employee where id>20 or spouseid>10 or sal>1900 or spousesal>1400;
+select spousename from Employee where id>20 order by id;
+select spousename from Employee where id>20 and spouseid>10 and sal>1900 and spousesal>1400 order by id;
+select spousename from Employee where id>20 or spouseid>10 or sal>1900 or spousesal>1400 order by id;
+select * from Employee where id>20 orderby id,name;
+select spousename from Employee where id>20 orderby spousename;

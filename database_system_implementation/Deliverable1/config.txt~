@@ -1,0 +1,19 @@
+PAGE_SIZE 500
+NUM_PAGES 5
+PATH_FOR_DATA /tmp/
+BEGIN
+bicycle_report
+DATETIME, String
+SEASON, int
+HOLIDAY, int
+WORKINGDAY, int
+WEATHER, int
+TEMP, float
+ATEMP, float
+HUMIDITY, int
+WINDSPEED, float
+CASUAL, int
+REGISTERED, int
+COUNT, int
+END
+
