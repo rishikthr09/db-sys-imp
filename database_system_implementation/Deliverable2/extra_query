@@ -1,2 +1,0 @@
-//nested select
-dbSystem.queryType("select * from test1 where id>(select id from test1 where fname='abcd')");
